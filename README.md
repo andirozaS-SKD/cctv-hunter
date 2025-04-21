@@ -79,6 +79,7 @@ Log Feed: Dicatat di cctv_feeds.txt
     -> Feed: http://123.45.67.89:8080/live/mjpg
     
 [=] Screenshot disimpan ke ./screenshot/123.45.67.89_8080.png
+
 [=] Dikirim ke Telegram
 
 
