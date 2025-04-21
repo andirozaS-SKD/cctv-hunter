@@ -25,14 +25,19 @@ Persiapan Sebelum Menjalankan
 Untuk Termux:
 
 pkg update && pkg upgrade
+
 pkg install python ffmpeg chromium git wget -y
+
 pip install selenium requests
+
 termux-setup-storage
 
 Untuk Linux (Debian/Ubuntu):
 
 sudo apt update && sudo apt upgrade
+
 sudo apt install python3 python3-pip ffmpeg chromium-browser git -y
+
 pip3 install selenium requests
 
 
@@ -43,6 +48,7 @@ pip3 install selenium requests
 Clone dari GitHub (jika tersedia):
 
 git clone https://github.com/andirozaS-SKD/cctv-hunter
+
 cd cctv-hunter
 
 
