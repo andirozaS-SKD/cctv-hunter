@@ -1,11 +1,11 @@
-CCTV Hunter v1 (Slow Scan)
+### CCTV Hunter v1 (Slow Scan)
 
 CCTV Hunter v1 adalah tool Python untuk melakukan scanning terhadap IP publik guna mencari feed CCTV yang terbuka (tanpa autentikasi). Tool ini dapat mengambil screenshot dari feed video, menyimpannya ke lokal.
 
 
 ---
 
-Fitur
+### Fitur
 
 Scanning IP acak dan port umum CCTV (81, 8080, 8000, dll)
 
@@ -18,9 +18,9 @@ Log semua CCTV ditemukan ke cctv_feeds.txt
 
 ---
 
-Persiapan Sebelum Menjalankan
+### Persiapan Sebelum Menjalankan
 
-1. Install Paket di Termux atau Linux
+### 1. Install Paket di Termux atau Linux
 
 Untuk Termux:
 
@@ -32,7 +32,8 @@ pip install selenium requests
 
 termux-setup-storage
 
-Untuk Linux (Debian/Ubuntu):
+
+### Untuk Linux (Debian/Ubuntu):
 
 sudo apt update && sudo apt upgrade
 
@@ -43,7 +44,7 @@ pip3 install selenium requests
 
 ---
 
-2. Download Script
+### 2. Download Script
 
 Clone dari GitHub (jika tersedia):
 
@@ -54,7 +55,7 @@ cd cctv-hunter
 
 ---
 
-Cara Menjalankan
+### Cara Menjalankan
 
 Setelah semua dependensi terpasang dan konfigurasi selesai:
 
@@ -63,7 +64,7 @@ python run.py
 
 ---
 
-Output
+### Output
 
 Screenshot Feed: Disimpan di folder ./screenshot
 
@@ -72,17 +73,18 @@ Log Feed: Dicatat di cctv_feeds.txt
 
 ---
 
-Contoh Tampilan
+### Contoh Tampilan
 
 [+] CCTV: http://123.45.67.89:8080/
     -> Feed: http://123.45.67.89:8080/live/mjpg
+    
 [=] Screenshot disimpan ke ./screenshot/123.45.67.89_8080.png
 [=] Dikirim ke Telegram
 
 
 ---
 
-Catatan Penting
+### Catatan Penting
 
 Script ini menggunakan Selenium + Chromium headless, pastikan chromedriver cocok dengan versi Chromium kamu.
 
